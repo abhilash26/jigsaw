@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title=title
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css")
+    body
+        .container
+            h2.title.has-text.centered QR Code Reader
+            p.message(hidden)
+            canvas#canvas(width="600" height="400")
+            #output
+                p#detect No QR Code detected.
+                p#QRMessage.title
+                button.button.button-primary#new New
+        script(src="/js/jsQR.js")
+        script(src="/js/main.js")
