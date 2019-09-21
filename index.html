@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>QR Scanner</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title has-text centered">QR Code Scanner</h2>
+        <p class="message" hidden="hidden"></p><canvas id="canvas" width="600" height="400"></canvas>
+        <div id="output">
+            <p id="detect">No QR Code detected.</p>
+            <input type="text" id="QRMessage">
+            <button id="copy" title="Copy to Clipboard">Copy</button>
+            <button id="new">New</button>
+        </div>
+    </div>
+    <script src="js/jsQR.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+html,
+body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background: black;
+}
+
+.container {
+	padding: 1em;
+	font-family: 'helvatica', sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	left: 0;
+	width: 800px;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+}
+
+canvas {
+	padding: 1em;
+	border: 1px solid black;
+	border-radius: 5px;
+	background: #eee;
+	height: 400px;
+	margin: 0 100px;
+}
+
+#output {
+	text-align: center;
+	color: #fff !important;
+}
+
+#QRMessage {
+	font-size: 2em;
+	padding: 0.15em;
+	position: relative;
+	top: 0.15em;
+}
+
+button {
+	padding: 1em 2em;
+	font-size: 1em;
+	box-shadow: 1px 1px 1px 1px #ddd;
+	background: #eee;
+	border-radius: 5px;
+	border: 0;
+}
+
+button:hover {
+	box-shadow: 2px 2px 2px 1px #ddd;
+	background: #333;
+	color: #fff;
+}
